@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        form fieldset {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10%;
+            margin-top: 2vh;
+            padding-right: 40%;
+        }
+
+ .btn {
+            margin: 3%;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+
+        #opc  {
+            width: 50vh;
+            margin-top: 5%;
+            
+
+        }
+        div{
+            margin-top: 5%;
+            display: flex;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>formulario</h1>
+        <form action="" method="get">
+
+            <fieldset>
+                <label for="nome" for="for">Nome</label>
+                <input type="text" id="nome" name="nome">
+                <input type="text" id="bloqueado" placeholder="input bloqueado" disabled>
+                <label for="idade" for="for">idade</label>
+                <input type="number" id="idade" name="idade">
+                <label for="email" for="for">Gmail</label>
+                <input type="email" id="email" name="Gmail">
+                <label for="senha" for="for">senha</label>
+                <input type="password" id="senha" name="senha">
+                <label for="curso">Curso</label>
+                <input type="text" id="curso" name="curso" placeholder="digite  seu curso">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem">teste</textarea>
+                <label for="escolha">Escolha uma opção</label>
+                <label for="opção1">
+                    opção1
+                    <input type="checkbox" name="" id="">
+                </label>
+                <label for="opção2">
+                    opção2
+                    <input type="checkbox" name="" id="">
+                </label>
+                <label for="opção3">
+                    opção3
+                    <input type="checkbox" name="" id="">
+                </label>
+                <label for="" >Oque você vai estudar hoje</label>
+                <label for="" id="opc" >
+                    <input type="radio" name="opa" id="">Front-and</input>
+                    <input type="radio" name="opa" id="">Back-and</input>
+                    <input type="radio" name="opa" id="">Banco de dados</input>
+                </label>
+                <label for="">Itens</label>
+                <select name="" id="">
+                    <option value="">seleção</option>
+                    <option value="">seleção</option>
+                    <option value="">seleção</option>
+                    <option value="">seleção</option>
+                    <option value="">seleção</option>
+                </select>
+                <label for="">cor</label>
+                <input type="color" name="" id="">
+                <label for="">data</label>
+                <input type="date" name="" id="">
+                <label for="">data e local</label>
+                <input type="datetime-local" name="" id="">
+                <label for="">semana</label>
+                <input type="week" name="" id="">
+                <label for="">ponto a até ponto b</label>
+                <input type="range" name="" id="">
+                <input type="search" placeholder="pesquise">
+                <div>
+                    <input class="btn" type="submit" value="enviar">
+                    <input type="reset" value="limpar" class="btn">
+                </div>
+            </fieldset>
+        </form>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(15, 53, 15);
+}
+.fundo{
+    background-image: url(../imagem/montanha.jpg);
+    background-position: center ;
+background-size:  cover;
+background-repeat: none;
+height: 50%;
+text-align: center;
+padding: 5%;
+color: aliceblue;
+}
+p{
+    font-size:1.5em ;
+}
+img{
+    border-radius: 5px;
+}
